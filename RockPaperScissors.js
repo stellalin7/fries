@@ -17,7 +17,7 @@ while (!valid){
 	}
 }
 
-var x = Math.floor(Math.random()*99) % 3;
+var x = Math.floor(Math.random()*100) % 3;
 // generates random number between 0 and 2
 switch (x){
 	case 0: 
