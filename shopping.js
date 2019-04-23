@@ -49,6 +49,7 @@ shopping_cart.reverse();
 console.log("Shopping cart: " + shopping_cart);
 
 //10
+console.log("10. Print the list of items in your shopping cart to the console as comma separated string.")
 console.log("Shopping cart: " + shopping_cart.toString());
 
 
