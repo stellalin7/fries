@@ -45,7 +45,7 @@ while (shopping_list.length > 0){
 
 //9
 console.log("9. Sort the items in your cart alphabetically... backwards");
-shopping_cart.reverse();
+shopping_cart.sort().reverse();
 console.log("Shopping cart: " + shopping_cart);
 
 //10
