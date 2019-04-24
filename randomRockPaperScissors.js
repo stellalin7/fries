@@ -61,7 +61,7 @@ function playRound(p1,p2){
 		
 	}
 	if (p1.hand == 'scissors' && p2.hand == 'paper'){
-		var winner = p2;
+		var winner = p1;
 		console.log("Scissors beats paper.");
 
 	}
