@@ -3,7 +3,7 @@ var hands = ['rock','paper','scissors'];
 function getHand() {
 	var i = parseInt(Math.random()*10) % 3;
 	// generates random number between 0 and 2
-	return handi = hands[i];
+	return hands[i];
 }
 
 var player1 = {
