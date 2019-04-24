@@ -36,19 +36,11 @@ function playRound(p1,p2){
 	console.log(p1.name + " picked " + p1.hand +".");
 	console.log(p2.name + " picked " + p2.hand +".");
 
-	if (p1.hand == 'rock' && p2.hand == 'rock'){
+	if (p1.hand === p2.hand){
 		console.log("Tie");
 		var winner = null;
 	}
-	if (p1.hand == 'paper' && p2.hand == 'paper'){
-		console.log("Tie");
-		var winner = null;
-	}
-	if (p1.hand == 'scissors' && p2.hand == 'scissors'){
-		console.log("Tie");
-		var winner = null;
-	}
-
+	
 	if (p1.hand == 'rock' && p2.hand == 'paper'){
 		var winner = p2;
 		console.log("Paper beats rock.");
@@ -70,12 +62,10 @@ function playRound(p1,p2){
 	if (p1.hand == 'paper' && p2.hand == 'scissors'){
 		var winner = p2;
 		console.log("Scissors beats paper.");
-		
 	}
 	if (p1.hand == 'scissors' && p2.hand == 'paper'){
 		var winner = p1;
 		console.log("Scissors beats paper.");
-
 	}
 
 	if (winner){
