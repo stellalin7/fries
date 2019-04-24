@@ -76,6 +76,8 @@ function playRound(p1,p2){
 function playGame(p1,p2,minWins){
 	while (p1.wins < minWins && p2.wins < minWins){
 		var lastWinner = playRound(p1,p2);
+		console.log("Player 1 has won "+ p1.wins + " games this round.");
+		console.log("Player 2 has won "+ p2.wins + " games this round.");
 	}
 	return lastWinner;
 }
