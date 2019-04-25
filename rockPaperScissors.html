@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+		<!-- jQuery library -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+		<!-- Popper JS -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+		<!-- Latest compiled JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+		
+	</head>
+	
+	<body>
+		<div class="container">
+			<div class="jumbotron">
+					<h1 id = "message">Click Rock, Paper, or Scissors</h1>
+			</div>
+		
+			<div class="row">
+	
+				<div class="col-md-4">	
+					<div class="card">
+		                
+							<div onclick="playRock()" class="btn btn-warning" style="height: 50mm">Rock</div>
+						
+					</div>
+				</div>
+
+				<div class="col-md-4">	
+					<div class="card">
+							
+							<div onclick="playPaper()" class ="btn btn-success" style="height: 50mm">Paper</div>
+						
+						
+					</div>
+				</div>
+
+				<div class="col-md-4">
+					<div class="card">
+		                
+							<div onclick="playScissors()" class="btn btn-danger" style="height: 50mm">Scissors</div>
+						
+					</div>
+				</div>
+
+			</div>
+		</div>
+		<script type="text/javascript" src="RockPaperScissors.js"></script>
+	</body>
+</html>
