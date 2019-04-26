@@ -9,6 +9,13 @@ function theAntsGoMarching(){
 	}
 }
 
+function howManyByHowMany(number){
+	var numbers = howTheyMarch[number];
+	var hurrah = " hurrah, hurrah \n";
+	var march = "The ants go marching " + numbers;
+ // debugger
+	console.log(march + hurrah + march + hurrah + march);
+}
 
 littleOne[0] = "The little one stops to suck her thumb";
 littleOne[1] = "The little one stops to tie his shoe";
@@ -23,10 +30,3 @@ littleOne[9] = "The little one stops to shut The End";
 
 theAntsGoMarching();
 
-function howManyByHowMany(number){
-	var numbers = howTheyMarch[number];
-	var hurrah = " hurrah, hurrah \n";
-	var march = "The ants go marching " + numbers;
- // debugger
-	console.log(march + hurrah + march + hurrah + march);
-}
