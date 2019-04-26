@@ -19,7 +19,7 @@ function baabaaBlackSheep() {
 	console.log("BaaBaa BlackSheep have you any wool?");
 	if (bags > 0) {
 		console.log("yes sir, yes sir " + bags + " bags full");
-  }
+  	}
 }
 
 function oneForMy() {
